@@ -1,6 +1,6 @@
 :root {
 
-    --background-clr: #f7f8fa;
+    --background-clr: #f0f2f6; /* f7f8fa */
 
 }
 .header {
@@ -8,5 +8,14 @@
 }
 
 .body {
-    background-color: var(--background-clr, #f7f8fa)
+    background-color: #f0f2f6;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility;
+}
+.highlight-box {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 26px 40px -24px rgba(0,0,0,0.2);
+    transition: 300ms;
+    padding: 2em;
 }
