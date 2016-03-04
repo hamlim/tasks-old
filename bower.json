@@ -1,0 +1,33 @@
+{
+  "name": "tasks",
+  "homepage": "http://goexploring.today/tasks",
+  "authors": [
+    "hamlim <hamlim@rpi.edu>"
+  ],
+  "description": "A simple task manager",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "task",
+    "manager",
+    "todo",
+    "list"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "fetch": "^0.11.0",
+    "north": "^0.4.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "notie": "*",
+    "hint.css": "^2.1.0"
+  }
+}
