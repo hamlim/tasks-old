@@ -7,6 +7,6 @@
     height: 300px;
 }
 
-.page {
-    background-color: var(--background-clr, #f7f8fa) 
+.body {
+    background-color: var(--background-clr, #f7f8fa)
 }
