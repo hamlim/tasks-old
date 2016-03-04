@@ -1,0 +1,12 @@
+:root {
+
+    --background-clr: #f7f8fa;
+
+}
+.header {
+    height: 300px;
+}
+
+.page {
+    background-color: var(--background-clr, #f7f8fa) 
+}
