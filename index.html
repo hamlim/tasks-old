@@ -13,22 +13,36 @@
         <link rel="stylesheet" href="./assets/css/custom.css">
         <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
     </head>
-    <body>
+    <body class="app">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header class="header clr_purple ">
-            <nav class="header__nav utilities__niceText">
+        <header class="header clr_purple bg__clr_green">
+            <nav class="header__nav">
                 <div class="header__logo utilities__tac">
-                    <h1>Tasks</h1>
+                    <h1 class="header__nameplate">Tasks</h1>
                 </div>
             </nav>
         </header>
-        <main class="page utilities__mv10 flex-container top middle around">
-            <article class="page__tasks highlight-box col--4">
+        <main class="page utilities__mv10 flex-container top center">
+            <article class="page__tasks highlight-box card bg__clr_lightgray col--4">
                 <h3>Task Lists:</h3>
+                <section class="page__lists">
+                    <div class="card hover__cursor bg__clr_white js-list " data-list-id="001">
+                        <h5>List Name</h5>
+                        <p>
+                            This is a short todo list.
+                        </p>
+                    </div>
+                    <div class="card hover__cursor bg__clr_white js-list " data-list-id="002">
+                        <h5>Second list name</h5>
+                        <p>
+                            This is a project list
+                        </p>
+                    </div>
+                </section>
             </article>
-            <aside class="page__status highlight-box col--2">
+            <aside class="page__status highlight-box card bg__clr_lightgray col--2">
                 <h3>Status:</h3>
             </aside>
         </main>
