@@ -1,0 +1,11 @@
+.media-element > h1,
+.media-element > h2,
+.media-element > h3,
+.media-element > h4,
+.media-element > h5,
+.media-element > h6 {
+    display: inline-block;
+}
+.item:not(:last-child) {
+    border-bottom: solid 2px black;
+}
