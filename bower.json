@@ -28,6 +28,7 @@
     "north": "^0.4.0",
     "Ionicons": "ionicons#^2.0.1",
     "notie": "*",
-    "hint.css": "^2.1.0"
+    "hint.css": "^2.1.0",
+    "foundation-sites": "^6.2.0"
   }
 }
