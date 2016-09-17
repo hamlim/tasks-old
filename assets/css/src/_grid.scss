@@ -85,7 +85,7 @@
 	flex-shrink: $proportion;
 }
 @mixin flexBasis($width) {
-	// This technically supports people using keywords like content or auto, however it should be known that many browsers aren't cully spec compliant with the flex-basis property, see: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
+	// This technically supports people using keywords like content or auto, however it should be known that many browsers aren't currently spec compliant with the flex-basis property, see: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
 	flex-basis: $width;
 }
 .item {

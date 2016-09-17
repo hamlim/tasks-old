@@ -20,9 +20,9 @@ module.exports = {
 				}
 			},
 			{
-				test: /\.scss$/,
-        loaders: ["style", "css?sourceMap", "sass?sourceMap"]
-			}
+        test:   /\.css$/,
+        loader: "style-loader!css-loader!postcss-loader"
+      }
 		]
 	},
 };

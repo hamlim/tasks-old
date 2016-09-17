@@ -1,0 +1,10 @@
+:root {
+	/* Breakpoints */
+  --phone-breakpoint: 16.667rem;
+  --phablet-breakpoint: 22.197rem;
+  --tablet-breakpoint: 31.250rem;
+  --desktop-breakpoint: 41.667rem;
+  --xl-breakpoint: 50.00rem;
+
+  /* Colors */
+}

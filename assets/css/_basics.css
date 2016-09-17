@@ -1,0 +1,86 @@
+:root {
+  /* Breakpoints */
+  --phone-breakpoint: 16.667rem;
+  --phablet-breakpoint: 22.197rem;
+  --tablet-breakpoint: 31.250rem;
+  --desktop-breakpoint: 41.667rem;
+  --xl-breakpoint: 50.00rem;
+
+  /* Colors */
+  
+}
+
+/* Opinnionated basics for matthamlin.me */
+
+a {
+	text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.link {
+	color: var(--shamrock);
+}
+.link:hover {
+  color: var(--ripe-lemon);
+}
+.link--active {
+  color: var(--orange1);
+}
+.link--special {
+  color: var(--piscton-blue-vone);
+}
+.link--special:hover {
+  color: var(--ecstasy);
+}
+
+.clr--blue {
+  color: var(--picton-blue-vone);
+}
+.bg--blue {
+  background-color: var(--picton-blue-vone);
+}
+.clr--yellow {
+  color: var(--ripe-lemon);
+}
+.bg--yellow {
+  background-color: var(--ripe-lemon);
+}
+.clr--green {
+  color: var(--shamrock);
+}
+.bg--green {
+  background-color: var(--shamrock);
+}
+
+.page, .footer, .main, .menu { 
+  margin: 0 auto;
+}
+
+@media screen and (min-width: var(--phone-breakpoint)) {
+  .page, .footer, .main, .menu {
+    width: 100vw;
+  }
+}
+@media screen and (min-width: var(--phablet-breakpoint)) {
+  .page, .footer, .main, .menu {
+    width: 90vw;
+  }
+}
+@media screen and (min-width: var(--tablet-breakpoint)) {
+  .page, .footer, .main, .menu {
+    width: 85vw;
+  }
+}
+@media screen and (min-width: var(--desktop-breakpoint)) {
+  .page, .footer, .main, .menu {
+    width: 75vw;
+  }
+}
+@media screen and (min-width: var(--xl-breakpoint)) {
+  .page, .footer, .main, .menu {
+    width: 65vw;
+  }
+}
